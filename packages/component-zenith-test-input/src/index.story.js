@@ -6,5 +6,5 @@ import ZenithValidationInput from '.'
 storiesOf('ZenithValidationInput', module)
 
   .add('Image Validation', () => (
-    <ValidationInputComponent onChange={action('changed')} />
+    <ZenithValidationInput onChange={action('changed')} />
   ))
