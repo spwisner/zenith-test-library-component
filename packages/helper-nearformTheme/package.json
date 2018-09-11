@@ -1,0 +1,11 @@
+{
+  "name": "@spwisner/helper-zenith-theme",
+  "version": "0.0.1",
+  "description": "Zenith Theme",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "author": "“Steve <“steve@stevewisner.com”> (www.stevewisner.com)",
+  "publishConfig": {
+    "access": "public"
+  }
+}
