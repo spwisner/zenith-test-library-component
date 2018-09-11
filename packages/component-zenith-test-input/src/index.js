@@ -6,7 +6,7 @@
 
 import React, {PropTypes } from 'react'
 
-const ValidationInputComponent = ({ id, inputContainerClass, inputClass, value, placeholder, onBlur, onChange, onFocus, autoComplete, tabIndex, errMessage, errorBottom, validEntity, imageContainer, type, ref}) => (
+const ZenithValidationInput = ({ id, inputContainerClass, inputClass, value, placeholder, onBlur, onChange, onFocus, autoComplete, tabIndex, errMessage, errorBottom, validEntity, imageContainer, type, imageSource}) => (
 	<div className={inputContainerClass}>
 		<input
 			type={type}
@@ -26,30 +26,29 @@ const ValidationInputComponent = ({ id, inputContainerClass, inputClass, value, 
 		}
 		{!errMessage && validEntity &&
 			<div className={imageContainer}>
-				<img src="https://www.buyerzone.com/images/zenith/validationSuccessCheckAnimation.gif" />
+				<img src={imageSource} />
 			</div>
 		}
 	</div>
 )
 
-ValidationInputComponent.propTypes = {
-	answerText: PropTypes.string,
+ZenithValidationInput.propTypes = {
 	autoComplete: PropTypes.string.isRequired,
 	errMessage: PropTypes.string,
 	errorBottom: PropTypes.string.isRequired,
 	id: PropTypes.string.isRequired,
 	imageContainer: PropTypes.string.isRequired,
+	imageSource: PropTypes.string.isRequired,
 	inputClass: PropTypes.string.isRequired,
 	inputContainerClass: PropTypes.string.isRequired,
 	onBlur: PropTypes.func.isRequired,
 	onChange: PropTypes.func.isRequired,
 	onFocus: PropTypes.func.isRequired,
 	placeholder: PropTypes.string,
-	ref: PropTypes.string,
 	tabIndex: PropTypes.number.isRequired,
 	type: PropTypes.string.isRequired,
 	validEntity: PropTypes.bool.isRequired,
 	value: PropTypes.string.isRequired
 }
 
-export default ValidationInputComponent
+export default ZenithValidationInput
