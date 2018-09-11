@@ -1,6 +1,6 @@
 {
   "name": "@spwisner/helper-zenith-theme",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Zenith Theme",
   "main": "dist/index.js",
   "module": "src/index.js",
