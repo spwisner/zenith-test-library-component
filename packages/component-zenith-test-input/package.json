@@ -1,6 +1,6 @@
 {
   "name": "@spwisner/component-zenith-test-input",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "An animated input",
   "main": "dist/index.js",
   "module": "src/index.js",
