@@ -1,12 +1,12 @@
 {
   "name": "@spwisner/component-zenith-test-input",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "An animated input",
   "main": "dist/index.js",
   "module": "src/index.js",
   "author": "“Steve <“steve@stevewisner.com”> (www.stevewisner.com)",
   "dependencies": {
-    "@spwisner/component-zenith-input-only": "0.0.4",
+    "@spwisner/component-zenith-input-only": "^0.0.5",
     "classnames": "^2.2.5",
     "react": "^15.3.1"
   },
