@@ -1,6 +1,6 @@
 {
   "name": "@spwisner/component-zenith-input-only",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "An animated input",
   "main": "dist/index.js",
   "module": "src/index.js",
