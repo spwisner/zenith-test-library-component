@@ -1,7 +1,7 @@
 {
   "name": "@spwisner/component-zenith-input-only",
   "version": "0.0.4",
-  "description": "An animated input",
+  "description": "An zenith input only",
   "main": "dist/index.js",
   "module": "src/index.js",
   "author": "“Steve <“steve@stevewisner.com”> (www.stevewisner.com)",
