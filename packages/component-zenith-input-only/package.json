@@ -1,6 +1,6 @@
 {
   "name": "@spwisner/component-zenith-input-only",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "An zenith input only",
   "main": "dist/index.js",
   "module": "src/index.js",
