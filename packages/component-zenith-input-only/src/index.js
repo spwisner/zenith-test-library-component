@@ -24,20 +24,14 @@ const ZenithInputOnly = ({ id, inputClass, value, placeholder, onBlur, onChange,
 
 ZenithInputOnly.propTypes = {
 	autoComplete: PropTypes.string.isRequired,
-	errMessage: PropTypes.string,
-	errorBottom: PropTypes.string.isRequired,
 	id: PropTypes.string.isRequired,
-	imageContainer: PropTypes.string.isRequired,
-	imageSource: PropTypes.string.isRequired,
 	inputClass: PropTypes.string.isRequired,
-	inputContainerClass: PropTypes.string.isRequired,
 	onBlur: PropTypes.func.isRequired,
 	onChange: PropTypes.func.isRequired,
 	onFocus: PropTypes.func.isRequired,
 	placeholder: PropTypes.string,
 	tabIndex: PropTypes.number.isRequired,
 	type: PropTypes.string.isRequired,
-	validEntity: PropTypes.bool.isRequired,
 	value: PropTypes.string.isRequired
 }
 

@@ -5,10 +5,11 @@
 */
 
 import React, {PropTypes } from 'react'
+import ZenithInputOnly from '@spwisner/component-zenith-input-only'
 
 const ZenithValidationInput = ({ id, inputContainerClass, inputClass, value, placeholder, onBlur, onChange, onFocus, autoComplete, tabIndex, errMessage, errorBottom, validEntity, imageContainer, type, imageSource}) => (
 	<div className={inputContainerClass}>
-		<input
+		<ZenithInputOnly
 			type={type}
 			ref='textInput'
 			className={inputClass}

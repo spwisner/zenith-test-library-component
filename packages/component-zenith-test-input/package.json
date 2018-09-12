@@ -6,6 +6,7 @@
   "module": "src/index.js",
   "author": "“Steve <“steve@stevewisner.com”> (www.stevewisner.com)",
   "dependencies": {
+    "@spwisner/component-zenith-input-only": "0.0.4",
     "classnames": "^2.2.5",
     "react": "^15.3.1"
   },
