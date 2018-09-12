@@ -12,7 +12,7 @@ const ZenithValidationInput = ({ id, inputContainerClass, inputClass, value, pla
 		<ZenithInputOnly
 			type={type}
 			ref='textInput'
-			className={inputClass}
+			inputClass={inputClass}
 			id={id}
 			value={value}
 			placeholder={placeholder}
